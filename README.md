@@ -9,5 +9,16 @@ A set of plugins adding functionality to git. See [here](https://www.atlassian.c
 
 ## Plugins
 
-- `git clean-up`
-    - Prunes local git repo branches to match active ones on the `origin`
+Prunes local git repo branches to match active ones on the `origin`
+
+```bash
+❯ git clean-up
+Local and Remote branches are now synced.
+
+Local
+* master
+
+Remote
+  origin/HEAD -> origin/master
+  origin/master
+```
