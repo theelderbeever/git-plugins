@@ -12,7 +12,7 @@ A set of plugins adding functionality to git. See [here](https://www.atlassian.c
 Prunes local git repo branches to match active ones on the `origin`
 
 ```bash
-❯ git clean-up
+❯ git cleanup
 Local and Remote branches are now synced.
 
 Local
