@@ -1,0 +1,2 @@
+compare=${1:-main}
+git reset --soft $(git merge-base $compare $(git branch --show-current)) && git commit
